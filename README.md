@@ -74,6 +74,8 @@ No Reiniciar
 
 # Para reparar el Apple ID:
 
+Abrir Terminal
+
 cd /Volumes/OPENCORE/OC4VM/Tools
 
 ./vmhide -on
@@ -82,12 +84,16 @@ REINICIAR
 
 # Para reparar los virtual CPU en AMD, el 4 es el número de cores
 
+Abrir Terminal
+
 cd /Volumes/OPENCORE/OC4VM/Tools
 
 ./amdcpu 4
 
 
 # Para cambiar la resolución de pantalla en el VM:  
+
+Abrir Terminal
 
 sudo /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1280 800
 
